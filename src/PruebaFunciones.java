@@ -21,7 +21,7 @@ public class PruebaFunciones {
         System.out.println("La suma de los elementos = "+sumaElementos(valores));
         ordenaElementos(valores);
         System.out.println(Arrays.toString(valores));
-        int resultadoSuma=sumaValores(2,3);
+        int resultadoSuma=sumaValores(2,3);//elementos individuales
         System.out.println("Valor de resultado "+resultadoSuma);
     }
     static int sumaElementos(int [] num){
@@ -40,7 +40,7 @@ public class PruebaFunciones {
         }
 
     }
-    static int sumaValores(int... numeros){
+    static int sumaValores(int... numeros){//numeros es un array
         int resultado=0;
         for (int numero:numeros){
             resultado+=numero;
